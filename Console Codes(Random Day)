@@ -9,5 +9,5 @@ string[] days = new string[7];
             days[6]="Sunday";
 
             Random rnd=new Random();
-            int random = rnd.Next(0, 6);
+            int random = rnd.Next(0, 7);
             Console.WriteLine(days[random]);
