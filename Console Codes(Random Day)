@@ -1,0 +1,13 @@
+string[] days = new string[7];
+
+            days[0]="Monday";
+            days[1]="Tuesday";
+            days[2]="Wednesday";
+            days[3]="Thursday";
+            days[4]="Friday";
+            days[5]="Saturday";
+            days[6]="Sunday";
+
+            Random rnd=new Random();
+            int random = rnd.Next(0, 6);
+            Console.WriteLine(days[random]);
